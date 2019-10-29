@@ -1,0 +1,24 @@
+{
+  "name": "cookie",
+  "version": "1.4.1",
+  "title":  "jQuery Cookie",
+  "description": "A simple, lightweight jQuery plugin for reading, writing and deleting cookies.",
+  "author": {
+    "name": "Sidharth Nayyar",
+    "url": "https://github.com/snayyar00"
+  },
+  "maintainers": [
+    {
+      "name": "Sidharth Nayyar",
+      "url": "https://github.com/snayyar00"
+    },
+
+  ],
+
+  "dependencies": {
+    "jquery": ">=1.2"
+  },
+  "bugs": "",
+  "homepage": "https://github.com/snayyar00",
+  "docs": "https://github.com/snayyar00"
+}
