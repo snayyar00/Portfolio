@@ -1,6 +1,13 @@
-#downloadbtn{
-  margin-top: 10%;
-margin-left: 50%;
+#result{
+  
+  width: auto;
+  height: auto;
+  font-size: large;
+}
+#downloadbtnd{
+  margin-left: 48%;
+  margin-top: 5%;
+
 }
 #logo{
   width:50%;
@@ -35,6 +42,11 @@ margin-left: 50%;
   content: "\e960";
   color: white;
   font-size: 30px;
+}
+.col-md-6 img{
+  margin-top: 2%;
+  width: 100%;
+ height: auto;
 }
 #contact-p{
   padding-left: 10%;

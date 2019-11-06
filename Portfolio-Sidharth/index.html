@@ -98,22 +98,19 @@ Inquisitive, energetic computer science specialist skilled in representing, with
                 <div class="box">
                   <div class="icon"><span class="icon-display"></span></div>
                   <h5>Web DEveloping</h5>
-                  <!-- <p>Fifth abundantly made Give sixth hath. Cattle creature i be don't them.</p> -->
-                </div>
+                  </div>
               </div>
               <div class="col-md-4">
                 <div class="box">
                   <div class="icon"><span class="icon-terminal"></span></div>
                   <h5>Java,Python,C++</h5>
-                  <!-- <p>Advantage old had otherwise sincerity dependent additions. It in adapted natural.</p> -->
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="box">
                   <div class="icon"><span class="icon-stackoverflow"></span></div>
                   <h5>SQL,React,Ajax,jquery</h5>
-                  <!-- <p>Am terminated it excellence invitation projection as. She graceful shy. </p> -->
-                </div>
+                  </div>
               </div>
             </div>
           </div>
@@ -135,7 +132,9 @@ Inquisitive, energetic computer science specialist skilled in representing, with
             </div>
             <div class="row">
               <div class="col-md-4">
-                <div class="box"></div>
+                <div class="box">
+
+                </div>
               </div>
               <div class="col-md-4">
                   <div class="box"></div>
@@ -179,15 +178,14 @@ Inquisitive, energetic computer science specialist skilled in representing, with
             <div class="row">
               <div class="col-md-6">
 
-                <embed src="SidharthNayyar_computer1.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="700px"  />
+              <img src="img/SidharthNayyar_computer1-1.jpg" >
                 </div>
               <div class="col-md-6">
-                <embed src="SidharthNayyar_computer2.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="700px"  />
-
+                <img src="img/SidharthNayyar_computer2-1.jpg">
                 <!-- <p>Effects present letters inquiry no an removed or friends. Desire behind latter me though in. Supposing shameless am he engrossed up additions. My possible peculiar together to. Desire so better am cannot he up before points. Remember mistaken opinions it pleasure of debating. Court front maids forty if aware their at. Chicken use are pressed removed. </p> -->
                 <!-- <p>Saw yet kindness too replying whatever marianne. Old sentiments resolution admiration unaffected its mrs literature. Behaviour new set existence dashwoods. It satisfied to mr commanded consisted disposing engrossed. Tall snug do of till on easy. Form not calm new fail. </p> -->
               </div>
-              <div id='downloadbtn'>
+              <div id='downloadbtnd'>
             <a id="downloadbtn" href='SidharthNayyar_computer.pdf' download> <span class="icon-download"></span></a>
             </div>
             </div>
@@ -204,34 +202,33 @@ Inquisitive, energetic computer science specialist skilled in representing, with
             <h2 class="heading">Contact</h2>
             <div class="row">
               <div class="col-lg-6">
-                <form id="contact-form" method="post" action="#" class="contact-form">
+                <form id="contact-form" name="contact-form" method="post" class="contact-form">
+                  <!-- action="js/form.php" -->
+                  
                   <div class="controls">
                     <div class="row">
                       <div class="col-md-6">
                         <div class="form-group">
-                          <label for="name">Your firstname *</label>
-                          <input type="text" name="name" placeholder="Enter your firstname" required="required" class="form-control">
+                          <label for="name">Your Name *</label>
+                          <input type="text" name="name" placeholder="Enter your firstname" required="required" class="form-control" >
                         </div>
                       </div>
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <label for="surname">Your lastname *</label>
-                          <input type="text" name="surname" placeholder="Enter your  lastname" required="required" class="form-control">
-                        </div>
-                      </div>
+
                     </div>
                     <div class="form-group">
                       <label for="surname">Your email *</label>
-                      <input type="email" name="email" placeholder="Enter your  email" required="required" class="form-control">
+                      <input type="email" name="email" placeholder="Enter your  email" required="required" class="form-control" >
                     </div>
                     <div class="form-group">
                       <label for="surname">Your message for me *</label>
-                      <textarea rows="4" name="message" placeholder="Enter your message" required="required" class="form-control"></textarea>
+                      <textarea rows="4" name="text" placeholder="Enter your message" required="required" class="form-control" ></textarea>
                     </div>
                     <div class="text-center">
-                      <input type="submit" name="name" value="Send message" class="btn btn-outline-primary btn-block">
+                      <input type="submit" name="submit" id="submit" value="Send message" class="btn btn-outline-primary btn-block">
                     </div>
                   </div>
+                  <span class="throw_error"></span>
+                  <span id="success"></span>
                 </form>
               </div>
               <div class="col-lg-6">
@@ -255,10 +252,13 @@ Inquisitive, energetic computer science specialist skilled in representing, with
       </div>
     </footer>
     <!-- JavaScript files-->
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   
+
 
     <script src="js/front.js"></script>
+    
   </body>
 </html>
